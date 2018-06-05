@@ -6,6 +6,7 @@ target 'RefreshSingleCell' do
   use_frameworks!
 
   # Pods for RefreshSingleCell
-  pod 'RxDataSources'
+  pod 'Flix', '~> 2.0.0.beta'
+  pod 'SnapKit'
 
 end

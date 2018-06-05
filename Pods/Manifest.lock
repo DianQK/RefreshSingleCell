@@ -1,5 +1,9 @@
 PODS:
   - Differentiator (3.0.2)
+  - Flix (2.0.0.beta.1):
+    - RxCocoa (~> 4.1)
+    - RxDataSources (~> 3.0)
+    - RxSwift (~> 4.1)
   - RxCocoa (4.2.0):
     - RxSwift (~> 4.0)
   - RxDataSources (3.0.2):
@@ -7,23 +11,29 @@ PODS:
     - RxCocoa (~> 4.0)
     - RxSwift (~> 4.0)
   - RxSwift (4.2.0)
+  - SnapKit (4.0.0)
 
 DEPENDENCIES:
-  - RxDataSources
+  - Flix (~> 2.0.0.beta)
+  - SnapKit
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - Differentiator
+    - Flix
     - RxCocoa
     - RxDataSources
     - RxSwift
+    - SnapKit
 
 SPEC CHECKSUMS:
   Differentiator: a87be69eba49ec4ab460c7671143ee3a9eececfd
+  Flix: a217a7463e43666a6db65b06eec8307bb8f68fba
   RxCocoa: 0b54909c902e1e581212a03e690bbd94032d8baa
   RxDataSources: cb7c31e652a87ebb919da45f716bbb87b3765f6b
   RxSwift: 99e10317ddfcc7fbe01356aafd118fde4a0be104
+  SnapKit: a42d492c16e80209130a3379f73596c3454b7694
 
-PODFILE CHECKSUM: 8a2ca5b4c5ac4d5097f61b885c3b7a675e1baa81
+PODFILE CHECKSUM: 7908cdc1234cd93528ca07a3b71e5d22d4dc4053
 
 COCOAPODS: 1.5.3
